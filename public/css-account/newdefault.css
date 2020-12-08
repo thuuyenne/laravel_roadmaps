@@ -1,0 +1,131 @@
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.customer-layout .border {
+    border: 1px solid #e9e9e9;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    min-height: 280px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.customer-layout .border h3 {
+    margin-top: 0;
+    font-size: 18px;
+    margin: 0 -15px 20px -15px;
+    padding: 0 15px 15px;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+@media (min-width: 1024px) {
+    .customer-layout .large_form {
+        text-align: left;
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-sm-6 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .customer-layout .action_bottom {
+        text-align: left;
+    }
+}
+
+.customer-layout .action_bottom {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+@media (min-width: 1024px) {
+    .customer-layout .large_form label {
+        display: block;
+        height: 25px;
+        line-height: 20px;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin: 0;
+        text-align: left;
+        margin-left: 10px;
+        font-weight: bold;
+    }
+}
+
+.customer-layout .large_form input {
+    width: 100%;
+    max-width: 750px;
+    line-height: 20px;
+    padding: 5px 10px;
+    border: 1px solid #e9e9e9;
+}
+
+input {
+    outline: none;
+}
+
+.customer-layout .action_bottom input,
+.customer-layout .action_bottom a {
+    min-width: 110px;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    border-radius: 0;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.req_pass {
+    margin-top: 10px;
+}
+
+#recover-password {
+    padding: 15px;
+    border: 1px solid #e9e9e9;
+}

@@ -1,0 +1,53 @@
+img.img-rounded.img-responsive.img-profile {
+    max-width: 155px;
+    border-radius: 18%;
+
+}
+
+button.btn.btn-sm.btn-default-alt.pull-left {
+    background: #d5d5d5;
+    margin-top: 12px;
+}
+
+.label-warning {
+    color: #f0ad4e;
+    font-weight: bold;
+    padding: 3px;
+}
+
+h3.fieldset-title {
+    border-bottom: 2px solid #eaeaf1;
+    padding: 2px;
+    font-size: 26px;
+}
+.form-control {
+border-radius: 5px;
+width: 100%;
+}
+label.col-form-label.col-md-3.col-sm-3.label-align {
+font-weight: bold;
+color: black;
+}
+.item.form-group {
+padding: 3px;
+}
+.form-inline.col-md-10.col-sm-9.col-xs-12 {
+    margin-top: -100px;
+    margin-left: 192px;
+}
+.x_content {
+    margin-top: -78px;
+}
+button.btn.btn-sm.btn-default-alt.pull-left {
+    background: #d5d5d5;
+    margin-top: 12px;
+    width: 103px;
+    height: 27px;
+}
+
+.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: #1e7e34;
+    border-color: #1c7430;
+    width: 100px;
+}

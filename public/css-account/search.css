@@ -1,0 +1,340 @@
+        @media (min-width: 800px) {
+        .section-content {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 662px;
+        }
+    }
+    
+    .section-content {
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-top: 70px;
+    }
+    
+    .sear-full {
+        width: 100% !important;
+    }
+    
+    .search {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        -webkit-font-smoothing: antialiased;
+    }
+    
+    .in-search {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        min-height: 54px;
+        padding: 0px 16px;
+        background-color: rgb(237, 237, 237);
+        border-radius: 16px;
+        color: rgb(5, 71, 82);
+        font-size: 16px;
+        line-height: 54px;
+        text-decoration: none;
+    }
+    
+    .search-lable:not(:first-child) {
+        margin-left: 16px;
+    }
+    
+    .search-lable {
+        width: calc(100% - 48px);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .search-lable {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    
+    .text-body {
+        display: flex;
+        width: 100%;
+    }
+    
+    .text-body {
+        color: rgb(112, 140, 145);
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .text {
+        margin: 0px;
+        font-weight: 400;
+    }
+    
+    @media (min-width: 800px) {
+        .search-date {
+            font-size: 16px;
+        }
+    }
+    
+    .search-date {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    
+    .info-date {
+        color: rgb(112, 140, 145);
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .info-date {
+        margin: 0px;
+        font-weight: 400;
+    }
+    
+    span.address-start {
+        padding: 0px 56px;
+    }
+    
+    i.fa.fa-long-arrow-right {
+        padding-right: 65px;
+    }
+    
+    i.fa.fa-long-arrow-down {
+        margin-left: 44px;
+        margin-bottom: 8px;
+    }
+    /* content-nav */
+    
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link {
+        color: #0d0d0d;
+        background-color: #007bff00 !important;
+        font-size: 20px;
+    }
+    
+    .nav-pills .nav-link.active,
+    .nav-pills .show>.nav-link:hover {
+        color: #0d0d0d;
+        font-size: 20px;
+    }
+    
+    .container {
+        border-bottom: 1px solid rgb(221, 221, 221);
+        margin-top: 36px;
+    }
+    
+    a.nav-item.nav-link {
+        color: #0d0d0d;
+        font-size: 20px;
+    }
+    
+    @media (min-width: 800px) {
+        .container-infor {
+            padding-bottom: 50px;
+        }
+    }
+    
+    @media (min-width: 800px) {
+        .container-infor {
+            min-height: calc(100vh - 72px);
+        }
+        .trips-list .title-date {
+            padding: 24px 0 16px;
+            background-color: #FFF;
+            font-size: 22px;
+            line-height: 24px;
+            padding-left: 16px;
+            margin-left: -16px;
+            padding-right: 16px;
+            margin-right: -16px;
+        }
+        .trips-card {
+            border-radius: 16px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1pt 4pt, rgba(0, 0, 0, 0.08) 0px 2pt 8pt;
+            list-style-type: none;
+            transition: box-shadow 200ms ease-in 0s;
+            background-color: rgb(255, 255, 255);
+        }
+        .card-infor {
+            margin-top: 16px !important;
+            margin-bottom: 16px !important;
+        }
+        .trips-card a {
+            display: block;
+            height: 100%;
+            padding: 16px;
+            text-decoration: none;
+        }
+        .container-main {
+            display: flex;
+            flex-direction: column;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            height: 100%;
+        }
+        .infor-main {
+            display: flex;
+            flex-direction: row;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+        .content-infor-main {
+            padding-right: 8px;
+            min-width: 0px;
+            padding-top: 8px;
+        }
+        .trips-card {
+            border-radius: 16px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1pt 4pt, rgba(0, 0, 0, 0.08) 0px 2pt 8pt;
+            list-style-type: none;
+            transition: box-shadow 200ms ease-in 0s;
+            background-color: rgb(255, 255, 255);
+            margin-top: 16px !important;
+            margin-bottom: 16px !important;
+        }
+        @media (min-width: 800px) {
+            .trips-list-date {
+                top: 72px;
+            }
+        }
+        .trips-list-date {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 56px;
+            z-index: 2;
+        }
+        .datetime-info {
+            font-weight: 500;
+            font-size: 18px;
+            margin-left: -35px;
+            margin-top: -7px;
+        }
+        .roadmap-container-location {
+            position: relative;
+            top: 4px;
+            margin-right: 8px
+        }
+        .location-roadmap {
+            display: block;
+            width: 4px;
+            height: calc(100% - 10px + 4px);
+            position: relative;
+            top: -1px;
+            background-color: rgb(5, 71, 82);
+            margin: 0px auto;
+        }
+        .text-titlestart .location-lable-text {
+            text-overflow: ellipsis;
+            overflow: hidden;
+            font-weight: 500;
+        }
+        /* price */
+        .trips-price-roadmap {
+            display: block;
+            flex-shrink: 0;
+            padding-top: 8px;
+        }
+        .trips-price-roadmap {
+            color: rgb(5, 71, 82);
+            font-size: 18px;
+            line-height: 20px;
+            font-weight: 500;
+        }
+        i.fa.fa-map-marker {
+            padding-right: 16px;
+        }
+        .titile-date .trips-list {
+            padding: 24px 0 16px;
+            background-color: #FFF;
+            font-size: 22px;
+            line-height: 24px;
+            padding-left: 16px;
+            margin-left: -16px;
+            padding-right: 16px;
+            margin-right: -16px;
+        }
+        .text-titlestart {
+            margin-top: 0;
+            margin-bottom: 0.5rem;
+        }
+        .tripcard-cus-bottom {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: justify;
+            justify-content: space-between;
+        }
+        .tripcard-bottom-left {
+            min-width: 0px;
+        }
+        .trip-left-drive {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            flex: 1 1 0%;
+            min-width: 0px;
+        }
+        .cus-avatar-img {
+            flex-shrink: 0;
+            margin-right: 16px;
+            border: none;
+            box-sizing: border-box;
+            border-radius: 50%;
+            position: relative;
+            width: 48px;
+            height: 48px;
+        }
+        .cus-avatar-img img {
+            border-radius: 50%;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .cus-info-tripcard {
+            min-width: 0px;
+        }
+        .trip-card-name-drive {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-height: calc(40px);
+            color: rgb(5, 71, 82);
+            font-size: 18px;
+            line-height: 20px;
+            margin: 0px;
+            font-weight: 400;
+        }
+        .tripcard-bottom-right {
+            margin-left: 16px;
+            flex-shrink: 0;
+        }
+        .tripcard-btn-choose {
+            color: rgb(112, 140, 145);
+        }
+        a:hover {
+            text-decoration: none !important;
+        }
+        footer.page-footer.font-small.unique-color-dark.footer {
+            margin-top: -59px;
+            padding-top: -13px;
+            background-color: #EDEDED;
+        }
+        label {
+            display: inline-block;
+            margin-bottom: .5rem;
+            font-family: 'BebasNeue';
+            FONT-SIZE: 16PX;
+        }
+        .nav-tabs>li>a {
+            margin-right: 205px;
+            line-height: 1.42857143;
+            border: 1px solid transparent;
+            border-radius: 4px 4px 0 0;
+        }
+        .nav-tabs {
+            border-bottom: none !important;
+            padding-left: 13.8em;
+        }

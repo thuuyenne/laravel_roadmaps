@@ -1,0 +1,133 @@
+footer {
+    padding: 60px 0 55px;
+}
+
+footer .newsletter {
+    margin-bottom: 40px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+footer .footer-menu {
+    margin-bottom: 30px;
+}
+
+footer .newsletter .title-top {
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+footer .newsletter form input {
+    padding: 10px;
+    width: 270px;
+    background-color: #f4f4f4;
+    border: 0;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+footer .newsletter form .btn-register {
+    margin-left: -2px;
+}
+
+.btn-register {
+    font-size: 12px;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    border: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    border-radius: 0;
+    line-height: 18px;
+}
+
+footer .footer-menu ul {
+    margin: 0;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+footer .footer-menu ul li {
+    display: inline-block;
+}
+
+footer .footer-menu ul li a {
+    display: block;
+    padding: 5px 20px;
+    font-size: 12px;
+    opacity: 0.7;
+    text-transform: uppercase;
+}
+
+a,
+button,
+.cursorsHover {
+    cursor: url(data:image/svg+xml,) 0 0, pointer !important;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+@media (min-width: 768px) {
+    .col-sm-3 {
+        width: 25%;
+    }
+}
+
+footer .footer-icon {
+    margin: 0;
+}
+
+footer .footer-icon li {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+footer p.copyright {
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h4 {
+    display: block;
+    font-size: 1em;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+a {
+    color: #080808;
+    text-decoration: none;
+    background-color: transparent;
+}

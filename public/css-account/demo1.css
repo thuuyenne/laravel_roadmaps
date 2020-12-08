@@ -1,0 +1,94 @@
+.col-xs-6 {
+    width: 50%;
+}
+
+.wrap-box-tab .form__group {
+    max-width: 350px;
+}
+
+.form__group {
+    position: relative;
+    padding: 15px 0 0;
+    margin-top: 10px;
+    width: 100%;
+    height: 70px;
+}
+
+.form__field:required,
+.form__field:invalid {
+    box-shadow: none;
+}
+
+.form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #ccc;
+    outline: 0;
+    font-size: 1.3rem;
+    color: #000;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+}
+
+.form__field:placeholder-shown~.form__label {
+    font-size: 1.3rem;
+    cursor: text;
+    top: 20px;
+}
+
+.form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1.3rem;
+    color: #ccc;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.button-big {
+    min-height: 40px;
+    min-width: 306px;
+    font-size: 14px;
+    letter-spacing: .2px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 30px;
+    border: none;
+}
+
+.title_account {
+    font-size: 28px;
+    /* letter-spacing: .3px; */
+    font-stretch: condensed;
+    font-weight: 700;
+    line-height: 32px;
+    background: none;
+    letter-spacing: .9px;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

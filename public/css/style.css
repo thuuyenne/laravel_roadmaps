@@ -1,0 +1,49 @@
+i.action-icon {
+    font-size: 20px;
+    color: black;
+}
+
+i.action-icon:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.panel_toolbox>li>a:hover {
+    background: transparent;
+}
+
+i.fa.fa-close,
+i.fa.fa-chevron-up {
+    display: block;
+    font-size: 15px;
+}
+
+.alert {
+    margin-bottom: 0;
+}
+
+/* pagi */
+.pagi {
+    position: absolute;
+    left: 50%;
+
+    transform: translate(-50%, 0);
+}
+
+.page-item.active .page-link {
+
+    background-color: #5A738E;
+    border-color: #5A738E;
+}
+
+.page-link {
+    color: #5A738E;
+}
+
+.page-link:hover {
+    color: #5A738E;
+    /* color: rgba(26, 187, 155, 0.7); */
+}
+button:focus {
+    outline: 0;
+}
