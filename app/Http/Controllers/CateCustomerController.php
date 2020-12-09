@@ -74,6 +74,24 @@ class CateCustomerController extends Controller
         $cate_customer = cate_customer::destroy($cate_customer_ID);
         return redirect()->back()->with('success','xóa thành công');
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     /**
      * Show the form for creating a new resource.
      *

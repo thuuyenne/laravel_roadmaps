@@ -11,6 +11,7 @@ use Illuminate\Routing\Router;
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
+
 */
 // include('routes_account.php');
 
@@ -42,9 +43,22 @@ Route::group(['prefix'=>'quan-tri','middleware'=>'checkad'],function(){
 
         Route::get('/del-{cate_customer_ID}','CateCustomerController@del')->name('del_cate_customer');
     });
-    // Route::group(['prefix' => 'roadmap'], function () {
-    //     Route::get('/'.'RoadmapController@index')->name('listroadmap');
-    // }); 
+    Route::group(['prefix' => 'roadmap'], function () {
+        Route::get('/'.'RoadmapController@index')->name('listroadmap');
+        Route::get('/del-{roadmap_ID}','RoadmapController@del')->name('del_roadmap');
+        
+    });
+    Route::group(['prefix' => 'payment'], function () {
+        Route::get('/payment','PaymemtController@index')->name('listpayment');
+
+        Route::get('/payment-create','PaymemtController@get_create')->name('create_payment');
+        Route::post('/payment-create','PaymemtController@post_create')->name('pcreate_payment');
+
+        Route::get('/payment-edit-{payment_ID}', 'PaymemtController@get_edit')->name('edit_payment');
+        Route::post('/payment-edit-{payment_ID}','PaymemtController@post_edit')->name('pedit_payment');
+
+        Route::get('/del-{payment_ID}','PaymemtController@del')->name('del_payment');
+    });
 
 });
 Route::post('update-account', 'AccountController@update');
@@ -65,10 +79,10 @@ Route::post('update-account', 'AccountController@update');
 // Route::resource('choose', 'ChooseController');
 // Route::resource('report', 'ReportController');
 
-// Route::get('statistic', 'StatisticController@index');
-// Route::get('searchProduct', 'ProductController@searchProduct');
-// Route::get('searchCustomer', 'CustomerController@searchCustomer');
-// Route::get('searchStaff', 'StaffController@searchStaff');
+Route::get('statistic', 'StatisticController@index');
+Route::get('searchProduct', 'ProductController@searchProduct');
+Route::get('searchCustomer', 'CustomerController@searchCustomer');
+Route::get('searchStaff', 'StaffController@searchStaff');
 
 /* đăng ký  */
 Route::get('/account', 'HomeController@index')->name('home1');
